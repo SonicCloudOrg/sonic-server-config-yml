@@ -2,4 +2,9 @@ spring:
   redis:
     database: 0
     host: 192.168.1.1
+#如果有密码，放下以下password注释
+#    password: 123456
+#如果是redis集群，注释host，然后放开以下注释
+#    cluster:
+#      nodes: 192.168.1.1:1234,192.168.1.2:1234
     port: 6379

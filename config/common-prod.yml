@@ -1,0 +1,5 @@
+gateway:
+  #token密钥
+  secret: sonic
+  #token有效天数
+  expireDay: 14

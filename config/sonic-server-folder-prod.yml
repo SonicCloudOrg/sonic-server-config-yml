@@ -8,4 +8,5 @@ spring:
       maxRequestSize: -1
 
 gateway:
+  #替换localhost
   host: "http://localhost:8094"
